@@ -1,0 +1,15 @@
+body {
+    padding-top: 60px;
+}
+
+.card-exp {
+    margin: 10px;
+}
+
+.perfil-img {
+    margin: 20px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
