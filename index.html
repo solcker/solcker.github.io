@@ -168,20 +168,20 @@
     <section class="py-5" id="contacto">
         <div class="container">
             <h1 class="text-center">Contacto</h1>
-            <form method="post" action="https://formsubmit.co/cd7335288cfca034a9c707cf64487c7b">
+            <form method="POST" action="https://formsubmit.co/cd7335288cfca034a9c707cf64487c7b">
                 <div class="mb-3">
                     <label for="Name" class="form-label">Nombre</label>
-                    <input type="text" class="form-control" id="Name" placeholder="Ingrese su nombre">
+                    <input type="text" name="name" class="form-control" placeholder="Ingrese su nombre" required>
                 </div>
                 <div class="mb-3">
                     <label for="Email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="Email" placeholder="Ingrese su email">
+                    <input type="email" name="email" class="form-control" placeholder="Ingrese su email" required>
                 </div>
                 <div class="mb-3">
                     <label for="Message" class="form-label">Mensaje</label>
-                    <textarea type="text" class="form-control" id="Message" placeholder="Mensaje"></textarea>
+                    <textarea type="text" name="message" class="form-control" placeholder="Mensaje"></textarea>
                 </div>
-                <button type="submit" id="fcf-button" class="btn btn-primary">Enviar</button>
+                <button type="submit" class="btn btn-primary">Enviar</button>
             </form>
         </div>
     </section>
