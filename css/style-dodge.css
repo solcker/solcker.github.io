@@ -1,0 +1,12 @@
+:root{
+    --light: #ffffff;
+}
+
+.bg-light{
+    background-color: var(--light) !important;
+}
+
+canvas{
+    border: 2px solid black;
+    background-color: red;
+}
